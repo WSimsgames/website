@@ -1,0 +1,131 @@
+/*Color scheme for this website:
+	#EF7110= Orange
+	#102a45= Navy Blue
+	#194572= Navy Blue
+*/
+
+body {
+		font-size: 1em;
+		font-weight: normal;
+		font-family: Helvetica sans, Arial, sans-serif;
+		color: #EF7110;
+		text-align: left;
+		background-color: #102a46;
+		background-image: url("../images/WG.jpg");
+		background-position: center top;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		margin-left: 10%;
+		margin-right: 10%;
+}
+h1,h2{
+		font-family: Palatino, Georgia, serif;
+		text-shadow: 4px 4px 4px black;
+}
+h1{
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #EF7110;
+	text-align: center;
+}
+h2{
+	font-size: 1.4em;
+	color: #EF7110;
+}
+div{
+	border: 1px solid orange; 
+	padding: 1.5em;
+	margin: 1.25em;
+	box-shadow: 5px 5px 5px #000000;
+	border-radius: 10px;
+}
+p{
+	font-style: italic;
+	color: #EF7110;
+	background-color: #Of1E8E;
+	padding: 1em;
+}
+a{
+	color: #EF7110;
+}
+a:hover, a:focus {
+		color: white;
+		background-color: #EF7110; 
+}
+/* Table styles*/
+table{
+		margin: 0 auto; /* A trick for centering stuff*/
+}
+th, td{
+		background-color: white;
+		color: black;
+		padding: 0.75em;
+		margin: 1em;
+}
+caption{
+		font-weight: bold;
+		font-size: 1.2em;
+		margin: 0.75em;
+}
+/*end of table styles*/
+div#skipnav{
+		width: 10em;
+		text-align: center;
+		position: relative;
+}
+div.info{
+		float: left;
+		width: 40%;
+		font-size: 1.2em;
+}
+p.overview:first-letter{
+		font-family: "lucida Calligraphy", "Monotype Corsiva", cursive;
+		font-weight: bold;
+		font-size: 2em;
+}
+/* Navigation Menu Styles */
+nav{
+		padding-bottom:.1px;
+		clear: left;
+		padding-left:5%;
+}
+nav ul{
+		list-style-type: none;
+		padding-bottom: inherit;
+}
+nav ul li{
+		float: left;
+		margin-right: 4em;
+}
+nav ul li a{
+		padding: 0.25em 1em;
+		text-decoration: none; /* no underline */
+		background-color: #EBF5FF; /* pale bluish white */
+		color: #4312ae;
+		border: 2px solid black;
+		border-top-left-radius: 1em 1em; /* rounded corner */
+		border-top-right-radius: 1em 1em;
+		border-bottom-right-radius: 1em 1em;
+		border-bottom-left-radius: 1em 1em;
+}
+nav ul li a:hover, nav ul li a:focus{
+		color: #EF7110;
+		background-color: #194572;
+		font-weight: bold;
+}
+main{
+	clear: left;
+	padding: 1em;
+}
+/* end of nav */
+div#banner {
+	text-align: center;
+	margin-top: 5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	padding: 4px 2px 0;
+	height: 130px;
+	width: 720px;
+}
